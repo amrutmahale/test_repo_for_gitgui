@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterization Test suite">
+	<test name="Testing Parameterization"> 
+		<parameter name="browser" value="chrome"/>
+	    <parameter name="username" value="admin"/> 
+		<parameter name="password" value="Test@123"/>
+		<parameter name="URL" value="https://demo.actitime.com"/> 
+		<parameter name="vtigerURL" value="https://demo.vtiger.com/vtigercrm/index.php"/>
+		<classes>
+		       <class name="advancexml.Parameterization" />
+		</classes>
+	
+	</test>
+
+</suite>
