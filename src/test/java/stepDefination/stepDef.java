@@ -66,7 +66,7 @@ public class stepDef extends BaseClassOfStepdef {
 		page.enterEmail(string);
 		page.enterpassword(string2);
 	}
-
+  
 	@When("Click login button")
 	public void click_login_button() {
 		page.loginbtn();
